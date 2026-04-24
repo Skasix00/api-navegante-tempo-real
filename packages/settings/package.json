@@ -1,5 +1,5 @@
 {
-	"name": "@carrismetropolitana/api-settings",
+	"name": "@carrismetropolitana/api-navegante-tempo-real-settings",
 	"version": "1.0.0",
 	"type": "module",
 	"files": ["dist"],
