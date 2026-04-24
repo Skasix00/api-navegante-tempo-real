@@ -1,5 +1,5 @@
 {
-	"name": "@carrismetropolitana/api",
+	"name": "@carrismetropolitana/api-navagante-tempo-real",
 	"private": true,
 	"scripts": {
 		"build": "turbo run build",

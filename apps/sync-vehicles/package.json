@@ -1,5 +1,5 @@
 {
-	"name": "@carrismetropolitana/api-sync-vehicles",
+	"name": "@carrismetropolitana/api-navegante-tempo-real-sync-vehicles",
 	"version": "1.0.0",
 	"type": "module",
 	"files": ["dist"],

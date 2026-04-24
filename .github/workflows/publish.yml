@@ -1,43 +1,43 @@
-name: Publish to NPM
+# name: Publish to NPM
 
-on:
-  push:
-    branches:
-      - v2
+# on:
+#   push:
+#     branches:
+#       - v2
 
-jobs:
-  #
+# jobs:
+#   #
 
-  # # # # # # # # # # # # # # # # # # # # #
-  # # # # # # # # # # # # # # # # # # # # #
+#   # # # # # # # # # # # # # # # # # # # # #
+#   # # # # # # # # # # # # # # # # # # # # #
 
-  publish:
-    name: 'Publish to NPM'
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+#   publish:
+#     name: 'Publish to NPM'
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
 
-      - name: Setup NodeJS
-        uses: actions/setup-node@v4
-        with:
-          node-version: '22'
-          registry-url: 'https://registry.npmjs.org'
+#       - name: Setup NodeJS
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: '22'
+#           registry-url: 'https://registry.npmjs.org'
 
-      - name: Install NPM dependencies
-        working-directory: ./packages/types
-        run: npm install
+#       - name: Install NPM dependencies
+#         working-directory: ./packages/types
+#         run: npm install
 
-      - name: Bump package version
-        working-directory: ./packages/types
-        run: npx @helperkits/bumper package.json
+#       - name: Bump package version
+#         working-directory: ./packages/types
+#         run: npx @helperkits/bumper package.json
 
-      - name: Build package
-        working-directory: ./packages/types
-        run: npm run build
+#       - name: Build package
+#         working-directory: ./packages/types
+#         run: npm run build
 
-      - name: Publish package to NPM
-        working-directory: ./packages/types
-        run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+#       - name: Publish package to NPM
+#         working-directory: ./packages/types
+#         run: npm publish --access public
+#         env:
+#           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

@@ -1,5 +1,5 @@
 {
-	"name": "@carrismetropolitana/api-sync-gtfs",
+	"name": "@carrismetropolitana/api-navegante-tempo-real-sync-gtfs",
 	"version": "1.0.0",
 	"type": "module",
 	"files": ["dist"],
