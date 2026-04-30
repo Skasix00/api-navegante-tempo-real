@@ -3,9 +3,9 @@
 /* * */
 
 import parseAlertV2 from '@/services/parseAlertV2.js';
-import { SERVERDB } from '@carrismetropolitana/api-services/SERVERDB';
-import { SERVERDB_KEYS } from '@carrismetropolitana/api-settings';
-import { type Alert } from '@carrismetropolitana/api-types/alerts';
+import { SERVERDB } from '@carrismetropolitana/api-navegante-tempo-real-shared-services/SERVERDB';
+import { SERVERDB_KEYS } from '@carrismetropolitana/api-navegante-tempo-real-shared-settings';
+import { type Alert } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/alerts';
 import LOGGER from '@helperkits/logger';
 import TIMETRACKER from '@helperkits/timer';
 import { ServiceAlertResponse } from '@tmlmobilidade/types';

@@ -4,9 +4,9 @@
 
 import DATES from '@/services/DATES.js';
 import { FASTIFY } from '@/services/FASTIFY.js';
-import { PCGIAPI, SERVERDB } from '@carrismetropolitana/api-services';
-import { SERVERDB_KEYS } from '@carrismetropolitana/api-settings';
-import { Pattern } from '@carrismetropolitana/api-types/network';
+import { PCGIAPI, SERVERDB } from '@carrismetropolitana/api-navegante-tempo-real-shared-services';
+import { SERVERDB_KEYS } from '@carrismetropolitana/api-navegante-tempo-real-shared-settings';
+import { Pattern } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/network';
 import { Dates } from '@tmlmobilidade/dates';
 import { DateTime } from 'luxon';
 

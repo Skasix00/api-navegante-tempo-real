@@ -1,10 +1,10 @@
 /* * */
 
 import { FASTIFY } from '@/services/FASTIFY.js';
-import { SERVERDB } from '@carrismetropolitana/api-services';
-import { SERVERDB_KEYS } from '@carrismetropolitana/api-settings';
-import { ApiResponse } from '@carrismetropolitana/api-types/common';
-import { District } from '@carrismetropolitana/api-types/locations';
+import { SERVERDB } from '@carrismetropolitana/api-navegante-tempo-real-shared-services';
+import { SERVERDB_KEYS } from '@carrismetropolitana/api-navegante-tempo-real-shared-settings';
+import { ApiResponse } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/common';
+import { District } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/locations';
 import { type FastifyReply, type FastifyRequest } from 'fastify';
 
 /* * */

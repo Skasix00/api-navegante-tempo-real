@@ -1,6 +1,6 @@
 /* * */
 
-import { NETWORKDB } from '@carrismetropolitana/api-services/NETWORKDB';
+import { NETWORKDB } from '@carrismetropolitana/api-navegante-tempo-real-shared-services/NETWORKDB';
 import 'dotenv/config';
 
 import start from './start.js';

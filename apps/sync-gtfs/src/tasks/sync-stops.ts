@@ -1,12 +1,12 @@
 /* * */
 
-import type { Stop as GtfsStopsExtended } from '@carrismetropolitana/api-types/gtfs-extended';
+import type { Stop as GtfsStopsExtended } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/gtfs-extended';
 
-import { NETWORKDB } from '@carrismetropolitana/api-services/NETWORKDB';
-import { SERVERDB } from '@carrismetropolitana/api-services/SERVERDB';
-import { SERVERDB_KEYS } from '@carrismetropolitana/api-settings';
-import { Stop, StopOperationalStatus } from '@carrismetropolitana/api-types/network';
-import { sortCollator } from '@carrismetropolitana/api-utils';
+import { NETWORKDB } from '@carrismetropolitana/api-navegante-tempo-real-shared-services/NETWORKDB';
+import { SERVERDB } from '@carrismetropolitana/api-navegante-tempo-real-shared-services/SERVERDB';
+import { SERVERDB_KEYS } from '@carrismetropolitana/api-navegante-tempo-real-shared-settings';
+import { Stop, StopOperationalStatus } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/network';
+import { sortCollator } from '@carrismetropolitana/api-navegante-tempo-real-shared-utils';
 import LOGGER from '@helperkits/logger';
 import TIMETRACKER from '@helperkits/timer';
 

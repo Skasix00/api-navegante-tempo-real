@@ -1,6 +1,6 @@
 /* * */
 
-import type { Alert } from '@carrismetropolitana/api-types/gtfs-core';
+import type { Alert } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/gtfs-core';
 
 /* * */
 

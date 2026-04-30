@@ -16,9 +16,9 @@
 		"start": "node dist/index.js"
 	},
 	"dependencies": {
-		"@carrismetropolitana/api-services": "*",
-		"@carrismetropolitana/api-settings": "*",
-		"@carrismetropolitana/api-utils": "*",
+		"@carrismetropolitana/api-navegante-tempo-real-shared-services": "*",
+		"@carrismetropolitana/api-navegante-tempo-real-shared-settings": "*",
+		"@carrismetropolitana/api-navegante-tempo-real-shared-utils": "*",
 		"@helperkits/logger": "20250628.901.58",
 		"@helperkits/timer": "20240627.34.23",
 		"@tmlmobilidade/lib": "20251103.1255.55",
@@ -27,7 +27,7 @@
 		"firebase-admin": "13.8.0"
 	},
 	"devDependencies": {
-		"@carrismetropolitana/api-types": "*",
+		"@carrismetropolitana/api-navegante-tempo-real-shared-types": "*",
 		"@carrismetropolitana/eslint": "20250622.1204.50",
 		"@tmlmobilidade/tsconfig": "20260418.1237.24",
 		"@types/node": "25.6.0",

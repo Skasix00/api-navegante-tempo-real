@@ -1,6 +1,6 @@
 /* * */
 
-import { GTFSBool } from '@carrismetropolitana/api-types/gtfs-core';
+import { GTFSBool } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/gtfs-core';
 
 /* * */
 

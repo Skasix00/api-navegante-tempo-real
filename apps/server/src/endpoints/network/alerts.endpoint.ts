@@ -1,8 +1,8 @@
 /* * */
 
 import { FASTIFY } from '@/services/FASTIFY.js';
-import { SERVERDB } from '@carrismetropolitana/api-services';
-import { SERVERDB_KEYS } from '@carrismetropolitana/api-settings';
+import { SERVERDB } from '@carrismetropolitana/api-navegante-tempo-real-shared-services';
+import { SERVERDB_KEYS } from '@carrismetropolitana/api-navegante-tempo-real-shared-settings';
 import path from 'path';
 import protobufjs from 'protobufjs';
 import { fileURLToPath } from 'url';

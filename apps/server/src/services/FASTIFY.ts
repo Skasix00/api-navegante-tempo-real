@@ -1,6 +1,6 @@
 /* * */
 
-import { ApiResponseError } from '@carrismetropolitana/api-types/common';
+import { ApiResponseError } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/common';
 import cors from '@fastify/cors';
 import fastify from 'fastify';
 

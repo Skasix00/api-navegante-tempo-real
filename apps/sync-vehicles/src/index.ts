@@ -2,7 +2,7 @@
 
 import { syncMetadata } from '@/tasks/sync-metadata.js';
 import { syncPositions } from '@/tasks/sync-positions.js';
-import { PCGIDB } from '@carrismetropolitana/api-services';
+import { PCGIDB } from '@carrismetropolitana/api-navegante-tempo-real-shared-services';
 import LOGGER from '@helperkits/logger';
 import 'dotenv/config';
 

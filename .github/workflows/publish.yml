@@ -25,19 +25,19 @@
 #           registry-url: 'https://registry.npmjs.org'
 
 #       - name: Install NPM dependencies
-#         working-directory: ./packages/types
+#         working-directory: ./shared/types
 #         run: npm install
 
 #       - name: Bump package version
-#         working-directory: ./packages/types
+#         working-directory: ./shared/types
 #         run: npx @helperkits/bumper package.json
 
 #       - name: Build package
-#         working-directory: ./packages/types
+#         working-directory: ./shared/types
 #         run: npm run build
 
 #       - name: Publish package to NPM
-#         working-directory: ./packages/types
+#         working-directory: ./shared/types
 #         run: npm publish --access public
 #         env:
 #           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}

@@ -1,6 +1,6 @@
-import { SERVERDB } from '@carrismetropolitana/api-services';
-import { SERVERDB_KEYS } from '@carrismetropolitana/api-settings';
-import { TopDemandLinesByAgency } from '@carrismetropolitana/api-types/metrics';
+import { SERVERDB } from '@carrismetropolitana/api-navegante-tempo-real-shared-services';
+import { SERVERDB_KEYS } from '@carrismetropolitana/api-navegante-tempo-real-shared-settings';
+import { TopDemandLinesByAgency } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/metrics';
 import { DemandByLineByDay } from '@tmlmobilidade/types';
 
 export async function getDemandByLine(lineId: string) {

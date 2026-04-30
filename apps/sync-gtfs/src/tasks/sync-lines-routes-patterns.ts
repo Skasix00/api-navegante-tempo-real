@@ -1,12 +1,12 @@
 /* * */
 
-import { NETWORKDB } from '@carrismetropolitana/api-services/NETWORKDB';
-import { SERVERDB } from '@carrismetropolitana/api-services/SERVERDB';
-import { SERVERDB_KEYS } from '@carrismetropolitana/api-settings';
-import { Alight } from '@carrismetropolitana/api-types/gtfs-core';
-import { type CalendarDate, type Route as GtfsRoute, type StopTime as GtfsStopTime, type Trip as GtfsTrip } from '@carrismetropolitana/api-types/gtfs-extended';
-import { type Arrival, type Line, type Pattern, type Route, type Stop, type Trip, type Waypoint } from '@carrismetropolitana/api-types/network';
-import { sortCollator } from '@carrismetropolitana/api-utils';
+import { NETWORKDB } from '@carrismetropolitana/api-navegante-tempo-real-shared-services/NETWORKDB';
+import { SERVERDB } from '@carrismetropolitana/api-navegante-tempo-real-shared-services/SERVERDB';
+import { SERVERDB_KEYS } from '@carrismetropolitana/api-navegante-tempo-real-shared-settings';
+import { Alight } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/gtfs-core';
+import { type CalendarDate, type Route as GtfsRoute, type StopTime as GtfsStopTime, type Trip as GtfsTrip } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/gtfs-extended';
+import { type Arrival, type Line, type Pattern, type Route, type Stop, type Trip, type Waypoint } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/network';
+import { sortCollator } from '@carrismetropolitana/api-navegante-tempo-real-shared-utils';
 import tts from '@carrismetropolitana/tts';
 import LOGGER from '@helperkits/logger';
 import TIMETRACKER from '@helperkits/timer';

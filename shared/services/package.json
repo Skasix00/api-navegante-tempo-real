@@ -1,5 +1,5 @@
 {
-	"name": "@carrismetropolitana/api-navegante-tempo-real-services",
+	"name": "@carrismetropolitana/api-navegante-tempo-real-shared-services",
 	"version": "1.0.0",
 	"type": "module",
 	"exports": {
@@ -45,8 +45,8 @@
 		"lint:fix": "eslint . --fix"
 	},
 	"dependencies": {
-		"@carrismetropolitana/api-settings": "*",
-		"@carrismetropolitana/api-utils": "*",
+		"@carrismetropolitana/api-navegante-tempo-real-shared-settings": "*",
+		"@carrismetropolitana/api-navegante-tempo-real-shared-utils": "*",
 		"@helperkits/logger": "20250628.901.58",
 		"@helperkits/timer": "20240627.34.23",
 		"jwt-decode": "4.0.0",
@@ -58,7 +58,7 @@
 		"tunnel-ssh": "5.2.0"
 	},
 	"devDependencies": {
-		"@carrismetropolitana/api-types": "*",
+		"@carrismetropolitana/api-navegante-tempo-real-shared-types": "*",
 		"@carrismetropolitana/eslint": "20250622.1204.50",
 		"@tmlmobilidade/tsconfig": "20260418.1237.24",
 		"@types/node": "25.6.0",

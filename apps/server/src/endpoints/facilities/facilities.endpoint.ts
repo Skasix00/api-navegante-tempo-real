@@ -1,9 +1,9 @@
 /* * */
 
 import { FASTIFY } from '@/services/FASTIFY.js';
-import { SERVERDB } from '@carrismetropolitana/api-services';
-import { SERVERDB_KEYS } from '@carrismetropolitana/api-settings';
-import { SchoolSchema } from '@carrismetropolitana/api-types/facilities';
+import { SERVERDB } from '@carrismetropolitana/api-navegante-tempo-real-shared-services';
+import { SERVERDB_KEYS } from '@carrismetropolitana/api-navegante-tempo-real-shared-settings';
+import { SchoolSchema } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/facilities';
 
 /* * */
 

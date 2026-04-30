@@ -1,5 +1,5 @@
 {
-	"name": "@carrismetropolitana/api-navegante-tempo-real-utils",
+	"name": "@carrismetropolitana/api-navegante-tempo-real-shared-settings",
 	"version": "1.0.0",
 	"type": "module",
 	"files": ["dist"],
@@ -11,14 +11,10 @@
 		"lint": "eslint .",
 		"lint:fix": "eslint . --fix"
 	},
-	"dependencies": {
-		"luxon": "3.7.2"
-	},
 	"devDependencies": {
-		"@carrismetropolitana/api-types": "*",
+		"@carrismetropolitana/api-navegante-tempo-real-shared-types": "*",
 		"@carrismetropolitana/eslint": "20250622.1204.50",
 		"@tmlmobilidade/tsconfig": "20260418.1237.24",
-		"@types/luxon": "3.7.1",
 		"@types/node": "25.6.0",
 		"resolve-tspaths": "0.8.23",
 		"typescript": "6.0.3"

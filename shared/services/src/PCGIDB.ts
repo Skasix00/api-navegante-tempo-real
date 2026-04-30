@@ -1,6 +1,6 @@
 /* * */
 
-import { VehicleEvent } from '@carrismetropolitana/api-types/gtfs-extended';
+import { VehicleEvent } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/gtfs-extended';
 import { readFileSync } from 'fs';
 import { Collection, Db } from 'mongodb';
 

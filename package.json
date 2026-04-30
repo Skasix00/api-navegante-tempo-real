@@ -1,14 +1,14 @@
 {
-	"name": "@carrismetropolitana/api-navagante-tempo-real",
+	"name": "@carrismetropolitana/api-navegante-tempo-realo-real",
 	"private": true,
 	"scripts": {
 		"build": "turbo run build",
-		"build:packages": "turbo run build --filter=./packages/*",
+		"build:shared": "turbo run build --filter=./shared/*",
 		"dev": "dotenv-run -f ./environments/development/secrets/.env -- turbo run dev --concurrency=99",
-		"dev:server": "dotenv-run -f ./environments/development/secrets/.env -- turbo dev --filter=@carrismetropolitana/api-server",
-		"dev:sync-alerts": "dotenv-run -f ./environments/development/secrets/.env -- turbo dev --filter=@carrismetropolitana/api-sync-alerts",
-		"dev:sync-gtfs": "dotenv-run -f ./environments/development/secrets/.env -- turbo dev --filter=@carrismetropolitana/api-sync-gtfs",
-		"dev:sync-vehicles": "dotenv-run -f ./environments/development/secrets/.env -- turbo dev --filter=@carrismetropolitana/api-sync-vehicles",
+		"dev:server": "dotenv-run -f ./environments/development/secrets/.env -- turbo dev --filter=@carrismetropolitana/api-navegante-tempo-real-server",
+		"dev:sync-alerts": "dotenv-run -f ./environments/development/secrets/.env -- turbo dev --filter=@carrismetropolitana/api-navegante-tempo-real-sync-alerts",
+		"dev:sync-gtfs": "dotenv-run -f ./environments/development/secrets/.env -- turbo dev --filter=@carrismetropolitana/api-navegante-tempo-real-sync-gtfs",
+		"dev:sync-vehicles": "dotenv-run -f ./environments/development/secrets/.env -- turbo dev --filter=@carrismetropolitana/api-navegante-tempo-real-sync-vehicles",
 		"lint": "turbo run lint",
 		"rinse": "npx --yes @tmlmobilidade/repo-rinse"
 	},
@@ -20,6 +20,6 @@
 	"packageManager": "npm@11.12.1",
 	"workspaces": [
 		"apps/*",
-		"packages/*"
+		"shared/*"
 	]
 }

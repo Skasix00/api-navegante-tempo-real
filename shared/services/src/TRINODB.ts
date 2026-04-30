@@ -1,6 +1,6 @@
 /* * */
 
-import { TrinoValidations } from '@carrismetropolitana/api-types/trino';
+import { TrinoValidations } from '@carrismetropolitana/api-navegante-tempo-real-shared-types/trino';
 import { readFileSync } from 'fs';
 import { AddressInfo } from 'net';
 
