@@ -5,10 +5,6 @@ name: cmet-api-local
 volumes:
   serverdb:
 
-secrets:
-  pcgidbkey:
-    file: ../secrets/development/PCGIDB.key
-
 services:
   #
 

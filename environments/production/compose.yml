@@ -5,12 +5,6 @@ name: api
 volumes:
   serverdb:
 
-secrets:
-  pcgidbkey:
-    file: ./secrets/PCGIDB.key
-  firebasekey:
-    file: ./secrets/FIREBASE.json
-
 services:
   #
 
@@ -124,8 +118,6 @@ services:
         max-file: '1'
     env_file:
       - ./secrets/.env
-    secrets:
-      - pcgidbkey
 
   # # # # # # # # # # # # # # # # # # # # #
   # # # # # # # # # # # # # # # # # # # # #
@@ -145,8 +137,6 @@ services:
         max-file: '1'
     env_file:
       - ./secrets/.env
-    secrets:
-      - firebasekey
 
   # # # # # # # # # # # # # # # # # # # # #
   # # # # # # # # # # # # # # # # # # # # #
@@ -227,8 +217,6 @@ services:
         max-file: '1'
     env_file:
       - ./secrets/.env
-    secrets:
-      - pcgidbkey
 
   # # # # # # # # # # # # # # # # # # # # #
   # # # # # # # # # # # # # # # # # # # # #
@@ -267,8 +255,6 @@ services:
         max-file: '1'
     env_file:
       - ./secrets/.env
-    secrets:
-      - pcgidbkey
 
   # # # # # # # # # # # # # # # # # # # # #
   # # # # # # # # # # # # # # # # # # # # #
@@ -288,5 +274,3 @@ services:
         max-file: '1'
     env_file:
       - ./secrets/.env
-    secrets:
-      - pcgidbkey

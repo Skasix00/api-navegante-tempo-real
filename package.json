@@ -1,5 +1,5 @@
 {
-	"name": "@carrismetropolitana/api-navegante-tempo-realo-real",
+	"name": "@carrismetropolitana/api-navegante-tempo-real",
 	"private": true,
 	"scripts": {
 		"build": "turbo run build",
