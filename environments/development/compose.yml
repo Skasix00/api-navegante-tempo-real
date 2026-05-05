@@ -81,6 +81,8 @@ services:
         max-file: '1'
     ports:
       - 8082:80
+    volumes:
+      - ./pgadmin/servers.json:/pgadmin4/servers.json:ro
     environment:
       - PGADMIN_DEFAULT_EMAIL=networkdbuser@domain.com
       - PGADMIN_DEFAULT_PASSWORD=networkdbpassword

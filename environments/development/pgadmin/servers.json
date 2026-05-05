@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "networkdb",
+      "Group": "Servers",
+      "Host": "networkdb",
+      "Port": 5432,
+      "MaintenanceDB": "postgres",
+      "Username": "networkdbuser",
+      "SSLMode": "prefer"
+    }
+  }
+}

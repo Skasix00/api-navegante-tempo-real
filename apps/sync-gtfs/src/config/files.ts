@@ -125,6 +125,7 @@ const allGtfsFiles: GtfsFile[] = [
 		_key: 'routes',
 		extension: 'txt',
 		headers: [
+			'agency_id',
 			'line_id',
 			'line_short_name',
 			'line_long_name',
@@ -139,6 +140,7 @@ const allGtfsFiles: GtfsFile[] = [
 			'CREATE INDEX routes_route_id_idx ON routes ("route_id");',
 		],
 		table_query: `CREATE TABLE routes (
+			agency_id VARCHAR(2),
 			line_id VARCHAR(10),
 			line_short_name VARCHAR(10),
 			line_long_name VARCHAR(255),

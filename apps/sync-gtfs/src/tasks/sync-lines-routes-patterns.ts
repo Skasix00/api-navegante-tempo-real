@@ -259,6 +259,7 @@ export const syncLinesRoutesPatterns = async () => {
 			}
 			else {
 				currentPatternObject =	{
+					agency_id: routeRawData.agency_id,
 					color: routeRawData.route_color ? `#${routeRawData.route_color}` : '#000000',
 					direction_id: tripRawData.direction_id,
 					district_ids: [],
@@ -357,6 +358,7 @@ export const syncLinesRoutesPatterns = async () => {
 			}
 			else {
 				currentRouteObject = {
+					agency_id: routeRawData.agency_id,
 					color: routeRawData.route_color ? `#${routeRawData.route_color}` : '#000000',
 					district_ids: [],
 					facilities: [],
@@ -396,6 +398,7 @@ export const syncLinesRoutesPatterns = async () => {
 			}
 			else {
 				currentLineObject = {
+					agency_id: routeRawData.agency_id,
 					color: routeRawData.route_color ? `#${routeRawData.route_color}` : '#000000',
 					district_ids: [],
 					facilities: [],

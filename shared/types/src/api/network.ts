@@ -5,6 +5,7 @@ import type { Feature, LineString } from 'geojson';
 /* * */
 
 export interface Line {
+	agency_id: string
 	color: string
 	district_ids: string[]
 	facilities: string[]
@@ -24,6 +25,7 @@ export interface Line {
 /* * */
 
 export interface Route {
+	agency_id: string
 	color: string
 	district_ids: string[]
 	facilities: string[]
@@ -43,6 +45,7 @@ export interface Route {
 /* * */
 
 export interface Pattern {
+	agency_id: string
 	color: string
 	direction_id: 0 | 1
 	district_ids: string[]
